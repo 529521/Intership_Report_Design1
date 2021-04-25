@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Game, sans-serif;
+}
+@font-face { font-family: Game; src: url('../css/FirstJob-X8rP.ttf'); } 
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+.over h1{
+    text-transform: uppercase;
+    font-size: 49px;
+}
+body{
+    margin: 0; height: 100%; 
+    background-color: #6A6D57!important;
+
+}
+.btn-get-started{
+    background: #5A5E3F;
+    padding: 11px;
+    color: white;
+    font-size: 20px;
+
+}
+.download{
+    background: #5A5E3F;
+    padding: 11px!important;
+    color: white!important;
+    font-size: 20px!important;
+}
+.verslag1{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 20%!important;
+    color: white;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+}
+.front_{
+    position: absolute;
+    /* margin: 0 auto; */
+    top: 20%;
+    left: 22%;
+}
+#verslag1{
+    height: 100vh;
+    /* background-image: url('../img/20.svg'); */
+}
+.ruimte{
+    height: 300px;
+    background: #6A6D57;
+    width: 388px;
+    margin: 0 auto;
+}
+.ruimte img{
+    margin: 0 auto;
+    width: 100%;
+}
+.ruimte h1{
+    position: absolute;
+    /* top: 14px; */
+    margin-top: 88px;
+    margin-left: 105px;
+}
+.svg_image{
+    min-height: 1332px;
+    height: auto;}
+.Layer_1{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}	
+#Layer_1::after{
+    border-bottom: 9px solid black;
+}
+#bird1{
+    animation: float 16s ease-in-out infinite;
+
+}
+.bird{
+    animation: float 16s ease-in-out infinite;
+
+}
+.bird2{
+    animation: float2 16s ease-in-out infinite;
+
+}
+#svg_589{
+    animation: float 16s ease-in-out infinite;
+
+}
+#svg_6{
+    animation: cloud-anim1 67s alternate infinite linear;
+ }
+#svg_7{
+    animation: cloud-anim 55s alternate infinite linear;
+ }
+#svg_4{
+   animation: cloud-anim 39s alternate infinite linear;
+}
+#svg_14{
+    animation: cloud-anim 39s alternate infinite linear;
+
+}
+#svg_13{
+    animation: cloud-anim1 39s alternate infinite linear;
+
+}
+#svg_15{
+    animation: cloud-anim1 69s alternate infinite linear;
+
+}
+@keyframes cloud-anim1 {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(-800px);
+    }
+    
+}
+@keyframes cloud-anim {
+    from{
+        transform: translateX(-340px);
+    }
+    to{
+        transform: translateX(800px);
+    }
+    
+}
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+@keyframes float2 {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.col{
+    height: 600px;
+    position: relative;
+
+border: 5px solid #84603A;
+}
+.col::before{
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 4px solid #AB5D4A;
+}
